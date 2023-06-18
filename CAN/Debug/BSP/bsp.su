@@ -1,0 +1,6 @@
+../BSP/bsp.c:10:6:Bsp_Led_Show_State_Handle	8	static
+../BSP/bsp.c:23:6:Bsp_Init	16	static
+../BSP/bsp.c:43:6:Bsp_Data_Init	16	static
+../BSP/bsp.c:47:6:Bsp_Data_Init1	24	static
+../BSP/bsp.c:51:6:Ctrl_robot_moving	16	static
+../BSP/bsp.c:72:6:Bsp_Loop	8	static

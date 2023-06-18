@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="res = MPU_Read_Byte(AK8963_ADDR, MAG_WIA);"/>
+		<list key="findhistory">
+			<item value="res = MPU_Read_Byte(AK8963_ADDR, MAG_WIA);"/>
+			<item value="//int testRece1     =0;"/>
+		</list>
+	</section>
+</section>

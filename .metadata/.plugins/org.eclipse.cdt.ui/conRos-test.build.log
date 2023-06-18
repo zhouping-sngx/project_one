@@ -1,0 +1,10 @@
+14:36:50 **** Incremental Build of configuration Debug for project conRos-test ****
+make -j8 all 
+arm-none-eabi-size   conRos-test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22476	    124	   1908	  24508	   5fbc	conRos-test.elf
+Finished building: default.size.stdout
+ 
+
+14:36:51 Build Finished. 0 errors, 0 warnings. (took 273ms)
+

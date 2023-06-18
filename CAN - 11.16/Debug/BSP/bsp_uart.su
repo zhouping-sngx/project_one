@@ -1,0 +1,12 @@
+../BSP/bsp_uart.c:43:6:USART1_Init	8	static
+../BSP/bsp_uart.c:51:6:USART1_test	24	static
+../BSP/bsp_uart.c:58:6:USART1_test1	16	static
+../BSP/bsp_uart.c:64:5:Recetest	16	static
+../BSP/bsp_uart.c:76:5:Recetest1	4	static
+../BSP/bsp_uart.c:85:6:USART1_Send_U8	16	static
+../BSP/bsp_uart.c:91:6:USART1_Send_ArrayU8	16	static
+../BSP/bsp_uart.c:104:6:usartSendData	48	static
+../BSP/bsp_uart.c:129:15:getCrc8	24	static
+../BSP/bsp_uart.c:147:6:USART_Send_String	16	static
+../BSP/bsp_uart.c:161:6:HAL_UART_RxCpltCallback	16	static
+../BSP/bsp_uart.c:185:1:__io_putchar	16	static

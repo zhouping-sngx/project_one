@@ -1,0 +1,10 @@
+10:03:28 **** Incremental Build of configuration Debug for project Read_IMU ****
+make -j8 all 
+arm-none-eabi-size   Read_IMU.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18944	    124	   1796	  20864	   5180	Read_IMU.elf
+Finished building: default.size.stdout
+ 
+
+10:03:29 Build Finished. 0 errors, 0 warnings. (took 364ms)
+

@@ -1,0 +1,9 @@
+../BSP/bsp_can.c:11:6:Can_Init	8	static
+../BSP/bsp_can.c:45:6:Can_Test_Send1	64	static
+../BSP/bsp_can.c:74:6:Can_Test_Send2	64	static
+../BSP/bsp_can.c:103:6:Can_Test_Send3	64	static
+../BSP/bsp_can.c:131:6:Can_Test_Send4	64	static
+../BSP/bsp_can.c:159:6:Can_Test_Send5	64	static
+../BSP/bsp_can.c:187:6:Can_Test_Send6	64	static
+../BSP/bsp_can.c:215:6:Can_Test_Send7	64	static
+../BSP/bsp_can.c:244:6:HAL_CAN_RxFifo0MsgPendingCallback	64	static

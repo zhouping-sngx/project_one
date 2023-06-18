@@ -1,0 +1,20 @@
+10:48:20 **** Incremental Build of configuration Debug for project conRos ****
+make -j8 all 
+arm-none-eabi-gcc "../BSP/bsp_can.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../BSP -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"BSP/bsp_can.d" -MT"BSP/bsp_can.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "BSP/bsp_can.o"
+arm-none-eabi-gcc -o "conRos.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\stm32code\conRos\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="conRos.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: conRos.elf
+ 
+arm-none-eabi-size   conRos.elf 
+arm-none-eabi-objdump -h -S  conRos.elf  > "conRos.list"
+arm-none-eabi-objcopy  -O ihex  conRos.elf  "conRos.hex"
+   text	   data	    bss	    dec	    hex	filename
+  21672	    124	   1900	  23696	   5c90	conRos.elf
+Finished building: default.size.stdout
+ 
+Finished building: conRos.hex
+ 
+Finished building: conRos.list
+ 
+
+10:48:23 Build Finished. 0 errors, 0 warnings. (took 2s.582ms)
+
